@@ -14,7 +14,7 @@ desc - Description
 
 
 console.log("hello");
-alert("hello");
+
 let myDate = new Date();
 let myDay = myDate.getDay();
 let today = ""; 
