@@ -32,7 +32,7 @@ else {
 }
 
 myDay = parseInt(myDay);
-console.log(day);
+console.log(myDay);
 function coffeeTemplate(coffee){
     let myReturn = ""; 
 
@@ -146,7 +146,7 @@ break;
 
 }
 console.log(coffee);
-document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffee").innerHTML = coffeeTemplate(coffee);
 document.getElementsByClassName("feature")[0].style.color = coffee.color;
 document.getElementsByClassName("feature")[1].style.color = coffee.color;
 document.body.style.backgroundColor = coffee.color;
