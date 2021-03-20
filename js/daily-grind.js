@@ -55,7 +55,7 @@ switch (myDay) {
 
     case 0:
         today = "Sunday";
-        coffee = { color:"Purple",
+        coffee = { color:"pink",
             name:"Brew",
             pic:"images/cold-brew.jpg",
             alt: "A picture of cold brew",
@@ -70,7 +70,7 @@ switch (myDay) {
     case 1:
     today = "Monday";
     coffee = { 
-        color: "pink",
+        color: "purple",
         name:"Bubble Tea",
         pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
@@ -83,7 +83,7 @@ break;
     case 2:
         today = "Tuesday";
         coffee = {
-            color: "brown",
+            color: "yellow",
             name:"Drip",
             pic:"images/drip.jpg",
             alt: "A picture of a Drip coffee",
@@ -97,7 +97,7 @@ break;
     case 3:
         today = "Wednesday";
         coffee = { 
-            color:"Yellow",
+            color:"brown",
             name:"Caramel",
             pic:"images/caramel-latte.jpg",
             alt: "A picture of a caramel latte",
@@ -109,7 +109,7 @@ break;
 
     case 4:
     today = "Thursday";
-    coffee = { color:"Orange",
+    coffee = { color:"tan",
         name:"Pumpkin",
         pic:"images/pumpkin-spice-latte.jpg",
         alt: "A picture of pumpkin spice latte",
@@ -121,7 +121,7 @@ break;
 
         case 5:
             today = "Friday";
-            coffee = { color:"Tan",
+            coffee = { color:"orange",
                 name:"Mocha",
                 pic:"images/mocha.jpg",
                 alt: "A picture of a mocha",
@@ -134,7 +134,7 @@ break;
 
         case 6:
     today = "Saturday";
-    coffee = { color:"Green",
+    coffee = { color:"blue",
         name:"Bucks",
         pic:"images/frappacino.jpg",
         alt: "A picture of a frappacino",
