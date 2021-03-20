@@ -32,7 +32,7 @@ else {
 }
 
 myDay = parseInt(myDay);
-
+console.log(day);
 function coffeeTemplate(coffee){
     let myReturn = ""; 
 
