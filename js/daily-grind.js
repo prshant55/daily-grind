@@ -41,7 +41,7 @@ function coffeeTemplate(coffee){
     <img src="${coffee.pic}" alt="${coffee.alt}" id="coffee"/>
     <strong class="feature">${coffee.day}'s Coffee Special:</strong><br> ${coffee.day}'s daily coffee special is <strong class="feature">${coffee.name}</strong>${coffee.desc}
 </p> `;
-    
+    console.log(myReturn);
     return myReturn;
 
 }
@@ -74,7 +74,7 @@ switch (myDay) {
         name:"Bubble Tea",
         pic:"images/bubble-tea.jpg",
         alt: "A picture of a Drip coffee",
-        day:"Wednesday",
+        day:"Monday",
         desc:`brown`
 
     };
@@ -87,7 +87,7 @@ break;
             name:"Drip",
             pic:"images/drip.jpg",
             alt: "A picture of a Drip coffee",
-            day:"Wednesday",
+            day:"Tuesday",
             desc:`brown`
 
         };
@@ -139,13 +139,14 @@ break;
         pic:"images/frappacino.jpg",
         alt: "A picture of a frappacino",
         day:"Saturday",
-        desc:`green `
+        desc:`green`
 
     };
 break;
 
 }
-document.getElementById("coffees").innerHTML = coffeeTemplate(coffee);
+console.log(coffeeTemplate(coffee));
+document.getElementById("coffee-output").innerHTML = coffeeTemplate(coffee);
 
 // the following code is the way I found to change all the colored text and the HTML background color
 // and it works so I'm sticking with it even though I know you demonstrated something else in class, Bill
