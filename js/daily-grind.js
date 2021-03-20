@@ -145,7 +145,7 @@ break;
 break;
 
 }
-document.getElementById("coffee").innerHTML = coffeeTemplate(coffee);
+document.getElementById("coffees").innerHTML = coffeeTemplate(coffee);
 
 // the following code is the way I found to change all the colored text and the HTML background color
 // and it works so I'm sticking with it even though I know you demonstrated something else in class, Bill
